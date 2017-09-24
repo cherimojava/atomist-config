@@ -16,3 +16,21 @@ editor:
     - "follower": "testing"
     - "featureName": "SpringBoot.Structure"
 
+---
+kind: "operation"
+client: "com.atomist:rug"
+version: "1.0.0-20170816122823"
+editor:
+  name: "AddFeatureFollowerEditor"
+  group: "atomist"
+  artifact: "spring-team-handlers"
+  version: "0.13.0"
+  origin:
+    repo: "git@github.com:atomisthq/spring-team-handlers.git"
+    branch: "d2f9cf10176111ee31276a7b538912f7539b91b5"
+    sha: "d2f9cf1"
+  parameters:
+    - "broadcaster": "spring-rest-seed"
+    - "follower": "orchidae-filems"
+    - "featureName": "SpringBoot.Structure"
+
